@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(65, 62, 62, 0.7),rgba(4,9,30,0.7)),url(plants.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.nav links {
+    flex: 1;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: bisque;
+    text-decoration: none;
+    font-size: 15px;
+}
+.title{
+    color: aquamarine;
+    text-align: center;
+}
+.title h1{
+    font-size: 30px;
+}
+.title p{
+    margin: 10px 0 40px;
+    font-size: 18px;
+    color: beige;
+}
+
+.objectives h1{
+    color: white;
+    text-align: center;
+    
+}
+
+.objectives p{
+    color: white;
+    text-align: center;
+}

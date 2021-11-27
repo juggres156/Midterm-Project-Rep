@@ -1,0 +1,56 @@
+body{
+    background-color: burlywood;
+    background-image: url("imageback.jpg");
+}
+
+.login-box{
+    width: 360px;
+    height: 280px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: cornsilk;
+}
+
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid silver;
+    border-radius: 6px;
+}
+
+input[type="button"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: navajowhite;
+    background-color: seagreen;
+    color: seashell;
+    font-size: 15;
+}
+
+input[type="submit"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: navajowhite;
+    background-color: seagreen;
+    color: seashell;
+    font-size: 15;
+}
